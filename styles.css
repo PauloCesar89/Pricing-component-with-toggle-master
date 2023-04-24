@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    margin: 30px;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+
+}
+
+.top-selector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+
+.options-plan{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.plan{
+    border: 1px solid red; 
+    width: 320px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.plan-center{
+    width: 330px;
+    height: 450px;
+}
