@@ -105,7 +105,15 @@ body{
     color: var(--Very-Light-Grayish-Blue);
 }
 
-
 span{
     font-size: 60px;
+}
+
+.plan a{
+    padding: 10px 80px;
+    border-radius: 5px;
+    background: linear-gradient(90deg,hsl(236, 72%, 79%), hsl(237, 63%, 64%));
+    text-decoration: none;
+    color: var(--Very-Light-Grayish-Blue);
+    font-size: 12px;
 }
