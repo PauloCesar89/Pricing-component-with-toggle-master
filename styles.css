@@ -2,7 +2,6 @@
     margin: 0;
     padding: 0;
     font-family: 'Montserrat', sans-serif;
-    /* font-size: 15px; */
 }
 
 :root{
@@ -15,7 +14,6 @@
 }
 
 .container{
-    /* border: 1px solid red; */
     height: 100vh;
     background-image: url("/images/bg-bottom.svg");
     background-repeat: no-repeat;
@@ -37,7 +35,7 @@ body{
     padding-top: 10px;
     margin-bottom: 20px;
     color: var(--Grayish-Blue);
-    font-size: 20px;
+    font-size: 12px;
 
 }
 
@@ -56,7 +54,7 @@ body{
 
 input{
     -webkit-appearance: none;
-    background: var(--primary-Linear-Gradient-One);
+    background: var(--primary-Linear-Gradient-two);
     outline: none;
     width: 40px;
     height: 20px;
@@ -105,7 +103,6 @@ input::-webkit-slider-thumb {
     align-items: center;
     justify-content: center;
     color: var(--Dark-Grayish-Blue);
-    /* border: 1px solid red; */
 }
 
 .sign-professional{
@@ -114,13 +111,12 @@ input::-webkit-slider-thumb {
     align-items: center;
     justify-content: center;
     color: var(--Very-Light-Grayish-Blue);
-    /* border: 1px solid red; */
 }
 
 .plan-center{
     width: 330px;
     height: 450px;
-    background-color: var(--primary-Linear-Gradient-One);
+    background-color: var(--primary-Linear-Gradient-two);
     color: var(--Very-Light-Grayish-Blue);
 }
 
@@ -156,4 +152,23 @@ li{
 .plan-center a{
     background: var(--Very-Light-Grayish-Blue);
     color: var(--primary-Linear-Gradient-two);
+}
+
+.plan a:hover{
+    background: var(--Very-Light-Grayish-Blue);
+    color: var(--primary-Linear-Gradient-two);
+    border: 1px solid var(--primary-Linear-Gradient-two);
+    transition: 0.3s;
+}
+
+.plan-center a:hover{
+    background: var(--primary-Linear-Gradient-two);
+    color: var(--Very-Light-Grayish-Blue);
+    border: 1px solid var(--Very-Light-Grayish-Blue);
+    transition: 0.3s;
+}
+
+input:hover{
+    background: var(--primary-Linear-Gradient-One);
+    transition: 0.3s;
 }
