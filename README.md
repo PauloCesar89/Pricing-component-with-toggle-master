@@ -1,6 +1,6 @@
 # Pricing component with toggle
 
-Controle de alternância que exibe valores conforme é selecionado a opção de pacote mensal e anual entre três planos.
+Controle de alternância que exibe valores conforme é selecionado a opção de pacote mensal ou anual entre três planos.
 
 
 ## Deploy 🚀
