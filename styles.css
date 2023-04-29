@@ -36,7 +36,6 @@ body{
     margin-bottom: 20px;
     color: var(--Grayish-Blue);
     font-size: 12px;
-
 }
 
 .top-selector{
@@ -52,8 +51,8 @@ body{
     margin: 10px;
 }
 
-input{
-    -webkit-appearance: none;
+[type="range"]{
+    appearance: none;
     background: var(--primary-Linear-Gradient-two);
     outline: none;
     width: 40px;
@@ -63,7 +62,6 @@ input{
 }
 
 input::-webkit-slider-thumb {
-    -webkit-appearance: none;
     appearance: none;
     width: 20px;
     height: 20px;
