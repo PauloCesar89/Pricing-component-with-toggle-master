@@ -25,6 +25,8 @@ Para fazer o deploy desse projeto rode
 
 •	JavaScript
 
+•	Media Queries
+
 
 ## Referência
 
