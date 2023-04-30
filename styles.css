@@ -170,3 +170,19 @@ input:hover{
     background: var(--primary-Linear-Gradient-One);
     transition: 0.3s;
 }
+
+@media screen and (max-width: 850px){
+
+.options-plan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.plan-center{
+    width: 320px;
+    height: 400px;
+    margin: 20px;
+}
+
+}
