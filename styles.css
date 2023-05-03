@@ -47,42 +47,44 @@ body{
     font-size: 10px;
 }
 
-.top-selector input{
-    margin: 10px;
+.top-selector h2{
+    margin: 40px;
 }
 
 [type="checkbox"]{
     appearance: none;
     background: var(--primary-Linear-Gradient-two);
     outline: none;
-    width: 40px;
-    height: 20px;
-    padding: 4px;
+    width: 42px;
+    height: 25px;
+    padding: 5px;
     border-radius: 15px;
+    position: absolute;
 }
 
+input[type="checkbox"]::before {
+    content: "";
+    position: absolute;
+    width: 18px;
+    height: 18px;
+    background-color: var(--Very-Light-Grayish-Blue);
+    border-radius: 50%;
+    left: 5px;
+    top: 4px;
+    transition: .3s;
+  }
 
-/* input [type="radio"]:checked{
-content: "";
-width: 20px;
-height: 20px;
-left: 4px;
-bottom: 4px;
-border-radius: 50%;
-background-color: aqua;
-color: aqua;
-border: 1px soli green;
-display: block;
-}
+  input[type="checkbox"]::after {
+    content: "";                     /*MONTHLY */
+    position: absolute;
+    left: 5px;
+    top: 5px;
+    transition: .3s;
+  }
 
-input::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%; 
-    background: var(--Very-Light-Grayish-Blue);
-    cursor: pointer;
-} */
+  input[type="checkbox"]:checked:before {
+    left: 20px;
+  }
 
 .options-plan{
     display: flex;
